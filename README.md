@@ -3,9 +3,9 @@ PReDeCK- A framework built upon NeurASP, for Part Of Relation Detection on detec
 <br>
 ##Install NeurASP
 Install the provided conda enviroment running the following command:
-'''bash
+```
 conda env create -n predeck --file env.yml
-'''
+```
 Need to explain how to install neurasp enviroment 
 <br>
 Need to provide a link to the files my folder semanticPascalPart->Instead provide ground truth json 
