@@ -1,7 +1,7 @@
 # PReDeCK
 PReDeCK- A framework built upon NeurASP, for Part Of Relation Detection on detected objects in an image, using Commonsense Knowledge 
 <br>
-##Install NeurASP
+## Install NeurASP
 Install the provided conda enviroment running the following command:
 ```
 conda env create -n predeck --file env.yml
