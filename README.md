@@ -27,6 +27,19 @@ Fill the required fields in  ```config.yaml``` file, accordingly.
 6. Set the size of the images (in our dataset is 640)
 
 
-Need to provide a link to the files my folder semanticPascalPart->Instead provide ground truth json 
+Run the system with the command stated below:
+```python run.py```
 
+## Commonsense Knowledge exportation via ConceptNet
 
+We provide all the necessary files to pull information from ConceptNet. 
+
+First, you have to initialize a local graph through Neo4j, and insert the credentials in the ```.py``` files, when needed.
+
+Then, by running ```python neo_concept_categories.py```, the local graph that includes the requested information is ready.
+
+To represent the knowledge derived from ConceptNet in ASP, run ```python create_CNrules_file.py```
+
+To avoid, the previous steps, we have provided the facts in ASP in the file ```CNrules.txt```.
+
+In general, the method is quite adaptable and can be configured according to the needs of the user.
