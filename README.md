@@ -16,7 +16,7 @@ In ```NeurASP/examples/```  insert the folder ```PReDeCK```.
 
 In ```NeurASP/examples/PReDeCK``` do the following:
 1. Install YOLOv5 according to the [instructions](https://github.com/ultralytics/yolov5).
-2. Download the [dataset](https://universe.roboflow.com/pascalpart/pascal-part-fquij) and copy the test set in the folder.
+2. Download the [dataset](https://universe.roboflow.com/pascalpart/pascal-part-fquij) and copy the test set (only the images) in the folder.
 
 
 Need to provide a link to the files my folder semanticPascalPart->Instead provide ground truth json 
