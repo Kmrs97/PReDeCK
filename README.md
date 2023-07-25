@@ -6,4 +6,6 @@ Need to explain how to install neurasp enviroment
 Need to provide a link to the files my folder semanticPascalPart->Instead provide ground truth json 
 <br>
 And to the test set-Roboflow
+<br>
+Install yolo
 
