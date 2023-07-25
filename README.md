@@ -3,10 +3,11 @@ PReDeCK- A framework built upon NeurASP, for Part Of Relation Detection on detec
 <br>
 ## Install NeurASP
 Follow the instruction found [here](https://github.com/azreasoners/NeurASP/tree/master).
-Instead of intalling the packages that are listed there, install the provided conda enviroment running the following command:
+Instead of installing the packages that are listed there, install the provided conda enviroment running the following command:
 ```
 conda env create -n predeck --file env.yml
 ```
+Replace the files ```neurasp.py``` and ```mvpp.py``` with the ones provided in this repository. 
 
 
 Need to explain how to install neurasp enviroment 
