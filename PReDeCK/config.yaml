@@ -1,0 +1,8 @@
+model: "trained_models/exp30_full_yolol_pre/weights/best.pt" #insert one of the trained models
+img_path: "PASCAL_full_testset/" #the path of the test set
+img_size: 640
+output_path: "Results/"
+gt_file: False
+evaluation_experiments: [1,2,3,4,5,6] #the number can be found in run.py e.g. 1 -> baseline (bl.infer, evr.baseline) 2->pgt1 , 3->pgt2.....
+inference: True
+evaluation: True
