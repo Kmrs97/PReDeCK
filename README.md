@@ -43,3 +43,11 @@ We provide all the necessary files to pull information from ConceptNet.
 To avoid, the previous steps, we have provided the facts in ASP in the file ```CNrules.txt```.
 
 In general, the method is quite adaptable and can be configured according to the needs of the user.
+
+### ASP Rules
+
+All the ASP rules formulated for the problem can be found in the ```ASP_PReDeCK Rules.ipynb``` notebook.
+
+## Object Detection Evaluation
+
+The evaluation for the object detection model was carried out using this [tool](https://github.com/rafaelpadilla/review_object_detection_metrics).
