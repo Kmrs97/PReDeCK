@@ -50,4 +50,4 @@ All the ASP rules formulated for the problem can be found in the ```ASP_PReDeCK 
 
 ## Object Detection Evaluation
 
-The evaluation for the object detection model was carried out using this [tool](https://github.com/rafaelpadilla/review_object_detection_metrics).
+The evaluation for the object detection models was carried out using this [tool](https://github.com/rafaelpadilla/review_object_detection_metrics).
