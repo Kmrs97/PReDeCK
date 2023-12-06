@@ -173,7 +173,7 @@ class NeurASP(object):
         return False
 
         
-    def infer(self, dataDic, obs='', mvpp='', postProcessing=None,stable_models=None):
+    def infer(self, dataDic, obs='', mvpp='', postProcessing=None):
         """
         @param dataDic: a dictionary that maps terms to tensors/np-arrays
         @param obs: a string which is a set of constraints denoting an observation
@@ -219,13 +219,10 @@ class NeurASP(object):
                 for atomIdx, prob in enumerate(probs):
                     tmp += '@{} {}; '.format(prob, self.mvpp['atom'][ruleIdx][atomIdx])
                 mvppRules += tmp[:-2] + '.\n'
-        # print("RULES===",mvppRules)
+
         # Step 3: find an optimal SM under obs
         dmvpp = MVPP(facts + mvppRules + mvpp)
-        if stable_models==1:
-            return dmvpp.find_one_most_probable_SM_under_obs_noWC(obs=obs)
-        else:
-            return dmvpp.find_k_most_probable_SM(obs=obs,stable_models=stable_models)
+        return dmvpp.find_one_most_probable_SM_under_obs_noWC(obs=obs)
 
 
     def learn(self, dataList, obsList, epoch, alpha=0, lossFunc='cross', method='exact', lr=0.01, opt=False, storeSM=False, smPickle=None, accEpoch=0, batchSize=1, bar=False):

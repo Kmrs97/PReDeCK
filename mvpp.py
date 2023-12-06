@@ -46,7 +46,6 @@ class MVPP(object):
         elif type(program) is str and re.sub(r'\n%[^\n]*', '\n', program).strip().endswith(('.', ']')):
             lines = program.split('\n')
         else:
-            print(program)
             print("Error! The MVPP program {} is not valid.".format(program))
             sys.exit()
 
