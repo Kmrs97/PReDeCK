@@ -44,6 +44,10 @@ To avoid, the previous steps, we have provided the facts in ASP in the file ```C
 
 In general, the method is quite adaptable and can be configured according to the needs of the user.
 
+## Error Detection and Handling
+
+Execute the experiments as explained above. To evaluate the experiments complete inline the OUTPUT DIR of the experiments in the ```evaluate_errors.py``` file.
+
 ### ASP Rules
 
 All the ASP rules formulated for the problem can be found in the ```ASP_PReDeCK Rules.ipynb``` notebook.
