@@ -497,3 +497,30 @@ def conceptnet_iou(output,iou_v):
     inference_res=getJSONdata(opath+"/CN1_inferences_JSON.json")
     evaluate_partOf(opath,"CN1_PartOfresults"+str(iou_v)+".txt",ground_truth,inference_res,labels=True,rel_type='Part',threshold=iou_v)
     # print("Total partOf relations in Ground Truth=",count_partOf(ground_truth))
+
+
+def noisy_conceptnet_iou(output,iou_v):
+    if path.exists(output)==False:
+        os.mkdir(output)
+    opath=output+'noisy_conceptnet'
+    if path.exists(opath)==False:
+        os.mkdir(opath)   
+
+    ground_truth=getJSONdata(output+"JSON_annotations.json")
+    ## {images[models{index{ground_truth}}]}
+    inference_res=getJSONdata(opath+"/NCN_inferences_JSON.json")
+    evaluate_partOf(opath,"NCN_PartOfresults"+str(iou_v)+".txt",ground_truth,inference_res,labels=True,rel_type='Spatial_Part',threshold=iou_v)
+    # print("Total partOf relations in Ground Truth=",count_partOf(ground_truth))
+
+def noisy_conceptnet(output):
+    if path.exists(output)==False:
+        os.mkdir(output)
+    opath=output+'noisy_conceptnet'
+    if path.exists(opath)==False:
+        os.mkdir(opath)   
+
+    ground_truth=getJSONdata(output+"JSON_annotations.json")
+    ## {images[models{index{ground_truth}}]}
+    inference_res=getJSONdata(opath+"/NCN_inferences_JSON.json")
+    evaluate_partOf(opath,"NCN_PartOfresults"+str(0.5)+".txt",ground_truth,inference_res,labels=True,rel_type='Spatial_Part',threshold=0.5)
+    # print("Total partOf relations in Ground Truth=",count_partOf(ground_truth))

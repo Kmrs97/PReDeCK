@@ -10,6 +10,11 @@ import predeck_gt2 as pgt2
 import predeck as prd
 import predeck_cn1 as pcn1
 import predeck_cn2 as pcn2
+import predeck_cnnoisy as pcn_noisy
+
+##Error Detection
+import predeck_ed_GT as ped_gt
+import predeck_ed_CN as ped_cn
 
 
 import coco_pre_detections as coco
@@ -26,8 +31,8 @@ class System:
     evaluation=None
     img_size=None
     experiments=[]
-    exp_list=[0,evr.baseline,evr.groundtruth1,evr.groundtruth2,evr.predeck,evr.conceptnet1,evr.conceptnet2] 
-    inf_list=[0,bl.infer,pgt1.infer,pgt2.infer,prd.infer,pcn1.infer,pcn2.infer,coco.infer]
+    exp_list=[0,evr.baseline,evr.groundtruth1,evr.groundtruth2,evr.predeck,evr.conceptnet1,evr.conceptnet2,evr.noisy_conceptnet] 
+    inf_list=[0,bl.infer,pgt1.infer,pgt2.infer,prd.infer,pcn1.infer,pcn2.infer,pcn_noisy.infer,ped_gt.infer,ped_cn.infer,coco.infer]
 
     def getConfigurations(self): 
         with open('config.yaml', 'r') as file:
