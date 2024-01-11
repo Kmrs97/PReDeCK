@@ -52,6 +52,10 @@ Execute the experiments as explained above. To evaluate the experiments complete
 
 All the ASP rules formulated for the problem can be found in the ```ASP_PReDeCK Rules.ipynb``` notebook.
 
+### Results
+
+The results of the executed experiments can be found in the folder ```Results``` in PDF and .csv format.
+
 ## Object Detection Evaluation
 
 The evaluation for the object detection models was carried out using this [tool](https://github.com/rafaelpadilla/review_object_detection_metrics).
