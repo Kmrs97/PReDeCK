@@ -1,0 +1,48 @@
+Full Yolo L Pre  Visual Baseline,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,7157,23255,8654,23.5,45.3,,,30.95,,
+,0.4,7690,22722,8121,25.3,48.6,1.8,3.3,33.28,,
+,0.3,7996,22416,7815,26.3,50.6,1,2,34.61,2.8,5.3
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK GT1,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,7157,8556,8654,45.5,45.3,,,45.4,,
+,0.4,7690,8023,8121,48.9,48.6,3.4,3.3,48.75,,
+,0.3,7996,7717,7815,50.9,50.6,2,2,50.75,5.4,5.3
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK GT2,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,7157,7872,8654,47.6,45.3,,,46.42,,
+,0.4,7690,7339,8121,51.2,48.6,3.6,3.3,49.87,,
+,0.3,7996,7033,7815,53.2,50.6,2,2,51.87,5.6,5.3
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,6600,7350,9211,47.3,41.7,,,44.32,,
+,0.4,7103,6847,8708,50.9,44.9,3.6,3.2,47.71,,
+,0.3,7396,6554,8415,53,46.8,2.1,1.9,49.71,5.7,5.1
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK CN2,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,6600,7589,9211,46.5,41.7,,,43.97,,
+,0.4,7103,7086,8708,50.1,44.9,3.6,3.2,47.36,,
+,0.3,7396,6793,8415,52.1,46.8,2,1.9,49.31,5.6,5.1
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK Noisy,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,2325,2264,13486,50.7,14.7,,,22.79,,
+,0.4,2478,2111,13333,54,15.7,3.3,1,24.33,,
+,0.3,2577,2012,13234,56.2,16.3,2.2,0.6,25.27,5.5,1.6
+,,,,,,,,,,,
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK CN1,,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,162,258,15649,38.6,1,,,1.95,,
+,0.4,174,246,15637,41.4,1.1,2.8,0.1,2.14,,
+,0.3,185,235,15626,44,1.2,2.6,0.1,2.34,5.4,0.2
+,,,,,,,,,,,
+Full Yolo L Pre  PReDeCK-(PartOf+trans+HasA CN),,,,,,,,,,,
+Object IoU,Part IoU ,TP,FP,FN,PrecisionMicroAvg (%),RecallMicroAvg (%),Precision Diff,Recall Diff,F1 score,Total  Pr. Increase,Total Rec. Increase
+0.5,0.5,3768,4584,12043,45.1,23.8,,,31.16,,
+,0.4,4070,4282,11741,48.7,25.7,3.6,1.9,33.64,,
+,0.3,4247,4105,11564,50.9,26.9,2.2,1.2,35.2,5.8,3.1
